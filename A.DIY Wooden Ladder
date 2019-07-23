@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n,k,x,max=0;
+        cin>>n;
+        int a[100001];
+        for(int i=1;i<100001;i++) a[i]=0;
+        k=n;
+        while(n--){
+            cin>>x;
+            a[x]++;
+            if(x>max) max=x;
+        }
+        for(int i=max;i>=1;i++){
+            if(a[max>=2])break;
+            else max--;
+        }
+        if(max>k-2) cout<<k-2;
+        else
+        cout<<max;
+        cout<<endl;
+    }
+    return 0;
+}
