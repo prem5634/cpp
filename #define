@@ -4,10 +4,14 @@ using namespace std;
 #define pb push_back
 #define pp pop_out
 #define MOD 1000000007
-int main(){
-      #for fastin fastout
+void fast(){
+  #for fastin fastout
       ios_base::sync_with_stdio(false);
       cin.tie(NULL);
+      }
+      
+int main(){
+    fast();
       
       
     cout << “\n”;  
