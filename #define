@@ -10,6 +10,6 @@ int main(){
       cin.tie(NULL);
       
       
-      
+    cout << “\n”;  
     return 0;
     }
