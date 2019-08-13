@@ -1,0 +1,49 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define MAX 1000005
+#define ll long long 
+#define pb push_back
+
+ll count1=0;
+
+int col[1000005];
+
+vector<int>v[1000005];
+
+void BFS(int  a){
+		queue<ll>q;
+		q.push(a);
+		col[a]=1;
+		count1++;
+		//cout<<1;
+		while( !q.empty() ){
+			int p=q.front();
+			for(ll i=0;i<v[p].size();i++){
+				if(col[v[p][i]]==0)
+				{
+					q.push(v[p][i]);
+					col[v[p][i]]++;
+					count1++;
+				}
+				
+				}
+				q.pop();
+			}
+	}
+
+int main(){
+	int edges;
+	cin>>edges;
+	int a,b;
+	while(edges--){
+		cin>>a>>b;
+		v[a].pb(b);
+		v[b].pb(a);
+		}
+  
+  //enter the root node to start the bfs with...
+  cin>>a;
+	BFS(a);	
+  //gives the no.of nodes in the graph
+	cout<<count1;
+	
