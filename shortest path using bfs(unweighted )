@@ -1,0 +1,55 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+
+
+ll col[10000];
+vector<ll>adj[10000];
+ll dis[10000];
+
+void numnum(ll p){}
+
+void BFS(int x){
+//clearing the distance array and visted array for each new test case
+	for (int i = 0; i < 10000; ++i)
+	{
+		dis[i]=-1;
+		col[i]=0;
+	}	
+  
+	queue<ll>q;
+	q.push(x);
+	col[x]=1;
+	dis[x]=0;
+	while(!q.empty()){
+
+		ll p=q.front();
+		//here numnum creates the adjaceny list for p in the bfs
+		numnum(p);
+		q.pop();
+		for (ll i = 0; i < adj[p].size(); ++i){
+			if(col[adj[p][i]]==0){
+				q.push(adj[p][i]);
+				
+				dis[adj[p][i]]=dis[p]+1;
+				col[adj[p][i]]=1;
+			}
+		}
+
+	}
+
+}
+
+
+int main(){
+
+ll n,n1;
+cin>>n>>n1;
+BFS(n);
+if(dis[n1]<0)
+cout<<"Impossible"<<endl;
+else
+cout<<dis[n1]<<endl;
+
+return 0;}
