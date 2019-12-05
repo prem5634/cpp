@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+#define mp make_pair
+#define MAX 2147483647
+#define MAX10 1000000007
+map<ll , ll>prime;
+void mpPrime(ll a,ll b){
+	for (ll i= a; i < b; i++)
+	{
+		int flag=0;
+		for(ll j=2;j<=sqrtl(i);j++){
+			if(i%j==0){
+				flag++;
+				break;
+			}
+		}
+		if(flag==0){
+			prime[i]=1;
+      //// print the i if it is a prime number////
+      cout<<i<<" ";
+		}
+	}
+}
+int main(){
+	mpPrime();
+	return 0;
+}
