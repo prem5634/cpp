@@ -1,9 +1,13 @@
+  
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
 #define pb push_back
 #define pp pop_out
 #define MOD 1000000007
+#define mp make_pair
+#define ff first
+#define ss second
 void fast(){
       ios_base::sync_with_stdio(false);
       cin.tie(NULL);
@@ -13,6 +17,6 @@ int main(){
     fast();
       
       
-    cout << “\n”;  
+    
     return 0;
     }
