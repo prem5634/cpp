@@ -1,7 +1,10 @@
 /*
-question https://www.spoj.com/problems/NAKANJ/
-solution https://ideone.com/qTr2sj
-descrption: this doesnot use adjacency list but simply bfs()s each valid position from starting until we reach the end.
+question->
+https://www.spoj.com/problems/NAKANJ/
+solution->
+https://ideone.com/qTr2sj
+descrption: 
+we donot use adjacency list, but we simply bfs() each valid position from starting until we reach the end.
 once we reach the end the a[end pos] will give us the minimum no of moves.
 */
 #include<bits/stdc++.h>
