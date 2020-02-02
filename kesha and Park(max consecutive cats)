@@ -1,0 +1,82 @@
+/*
+question : https://codeforces.com/contest/580/problem/C
+solution: https://ideone.com/5j4vVe
+*/
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+#define pp pop_out
+#define MOD 1000000007
+#define mp make_pair
+#define ff first
+#define ss second
+void fast(){
+      ios_base::sync_with_stdio(false);
+      cin.tie(NULL);
+      }
+int col[100005];
+vector<int>adj[100005];
+int cats[100005];
+ 
+ 
+void DFS(int x, int m){
+	int flag=0;
+	col[x]=1;
+	int numcat=cats[x];
+	for(int u: adj[x]){
+		if(col[u]==0  ){
+			flag++;
+			col[u]=1;
+       // if cats limit is already crossed then break
+			 if(numcat>m)
+                break;
+            else if(numcat and cats[u])
+                cats[u]+=numcat;
+ 
+ 
+			DFS(u,m);
+		}
+	}
+  // marking only nodes as final destination
+	if(flag==0){
+		col[x]=3;
+ 
+	}
+	else{
+		col[x]=2;
+ 
+    }
+ 
+}
+int main(){
+    fast();
+    int n,m,x,y;
+    cin>>n>>m;
+    for (int i = 0; i < n; ++i)
+    {
+    	cin>>x;
+    	cats[i+1]=x;
+        adj[i].clear();
+    }
+ 
+ 
+    for (int j = 1; j < n; ++j)
+    {
+    	cin>>x>>y;
+    	adj[x].pb(y);
+    	adj[y].pb(x);
+ 
+    }
+    int ans=0;
+ 
+    DFS(1,m);
+    for (int i = 1; i <= n; ++i)
+    {
+    	if(col[i]==3 && cats[i]<=m)
+    	  	ans++;
+    }
+    cout<<ans<<endl;
+ 
+    return 0;
+    }
