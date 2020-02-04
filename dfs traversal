@@ -1,0 +1,81 @@
+/*
+question:https://codeforces.com/contest/727/problem/A
+solution:https://ideone.com/G6s1WS
+*/
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+#define pp pop_out
+#define MOD 1000000007
+#define mp make_pair
+#define ff first
+#define ss second
+void fast(){
+      ios_base::sync_with_stdio(false);
+      cin.tie(NULL);
+      }
+map<ll,int>col;
+stack<ll>stk;
+void DFS(ll a,ll b){
+      // cout<<"pushed a :"<<a<<endl;
+      stk.push(a);
+      while(!stk.empty()){
+            
+            ll p=stk.top();
+            // cout<<" top : "<<p<<endl;
+                  int flag=0;
+                  ll x=2*p,y=10*p+1;
+                  if(x<=b && col[x]==0){
+                        // cout<<"pushed x:"<<x<<endl;
+                        stk.push(x);
+                        flag++;
+                        if(x==b){
+                              // cout<<"found b"<<stk.top()<<endl;
+                              return;
+                        }
+                  }
+                  if(y<=b && col[y]==0 && flag==0){
+                        // cout<<"pushed y:"<<y<<endl;
+                        stk.push(y);
+                        if(y==b){
+                              // cout<<"found b"<<stk.top()<<endl;
+                              return;
+                        }
+                  } 
+            col[p]=1;
+            
+            if(col[stk.top()]==1){
+                  // cout<<"popped p"<<stk.top()<<endl;
+                  stk.pop();
+            }
+      }
+      return;
+}
+
+int main(){
+
+ fast();
+      
+   ll a,b;
+   cin>>a>>b;
+   DFS(a,b);
+   if(!stk.empty()){
+      stack<ll>final;
+      ll count=0;
+      while(!stk.empty()){
+            count++;
+            final.push(stk.top());
+            stk.pop();
+      }
+      cout<<"YES\n"<<count<<"\n";
+      while(!final.empty()){
+            cout<<final.top()<<" ";
+            final.pop();
+      }
+      cout<<"\n";
+   }
+   else
+      cout<<"NO\n";
+    return 0;
+    }
