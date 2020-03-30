@@ -1,4 +1,4 @@
-# 100DaysOfCode
+# Infinity CodeWar
 
 **Prem Kumar S**
 
