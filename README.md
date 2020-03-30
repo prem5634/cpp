@@ -35,4 +35,10 @@
 | [A - Games](https://codeforces.com/contest/268/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/268/submission/74863428 )|
 | [A - New Year and Hurry](https://codeforces.com/contest/750/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/750/submission/74865378 )|
 | [A - Buy a Shovel](https://codeforces.com/contest/732/problem/A) (CodeForces) | [Solution]( https://codeforces.com/contest/732/submission/74866627)|
+| [B - Anton and Digits](https://codeforces.com/contest/734/problem/B) (CodeForces) | [Solution](https://codeforces.com/contest/734/submission/74868929 )|
+| [A - QAQ](https://codeforces.com/contest/894/problem/A) (CodeForces) | [Solution]( )|
+| []() (CodeForces) | [Solution]( https://codeforces.com/contest/894/submission/74870873)|
+| []() (CodeForces) | [Solution]( )|
+| []() (CodeForces) | [Solution]( )|
+| []() (CodeForces) | [Solution]( )|
 | []() (CodeForces) | [Solution]( )|
