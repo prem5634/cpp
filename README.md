@@ -36,8 +36,10 @@
 | [A - New Year and Hurry](https://codeforces.com/contest/750/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/750/submission/74865378 )|
 | [A - Buy a Shovel](https://codeforces.com/contest/732/problem/A) (CodeForces) | [Solution]( https://codeforces.com/contest/732/submission/74866627)|
 | [B - Anton and Digits](https://codeforces.com/contest/734/problem/B) (CodeForces) | [Solution](https://codeforces.com/contest/734/submission/74868929 )|
-| [A - QAQ](https://codeforces.com/contest/894/problem/A) (CodeForces) | [Solution]( )|
-| []() (CodeForces) | [Solution]( https://codeforces.com/contest/894/submission/74870873)|
+| [A - QAQ](https://codeforces.com/contest/894/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/894/submission/74870873 )|
+| [A - Distinct Digits](https://codeforces.com/contest/1228/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1228/submission/74884110 )|
+| [A - Dawid and Bags of Candies](https://codeforces.com/contest/1230/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1230/submission/74898868 )|
+| [A - Got Any Grapes?](https://codeforces.com/contest/1114/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1114/submission/74899385 )|
 | []() (CodeForces) | [Solution]( )|
 | []() (CodeForces) | [Solution]( )|
 | []() (CodeForces) | [Solution]( )|
