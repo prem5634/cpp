@@ -43,11 +43,24 @@
 
 ### Day 2: April 1, 2020
 
+-Upsolved Codeforces Round #630 (Div. 2)
+
 - Problem Solved:
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
 | [A - Exercising Walk](https://codeforces.com/contest/1332/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1332/submission/75068302 )|
-| []() (CodeForces) | [Solution]( )|
-| []() (CodeForces) | [Solution]( )|
-| []() (CodeForces) | [Solution]( )|
+| [B - Composite Coloring](https://codeforces.com/contest/1332/problem/B) (CodeForces) | [Solution](https://codeforces.com/contest/1332/submission/75078553 )|
+
+### Day 3: April 2, 2020
+
+-Upsolved April Fools Day Contest 2020
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [A - Is it rated?](https://codeforces.com/contest/1331/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75179805 )|
+| [B - Limericks](https://codeforces.com/contest/1331/problem/B) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75180219 )|
+| [C - ...And after happily lived ever they](https://codeforces.com/contest/1331/problem/C) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75182190 )|
+| [D - Again?	](https://codeforces.com/contest/1331/problem/D) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75179999 )|
