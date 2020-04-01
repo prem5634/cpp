@@ -40,7 +40,14 @@
 | [A - Distinct Digits](https://codeforces.com/contest/1228/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1228/submission/74884110 )|
 | [A - Dawid and Bags of Candies](https://codeforces.com/contest/1230/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1230/submission/74898868 )|
 | [A - Got Any Grapes?](https://codeforces.com/contest/1114/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1114/submission/74899385 )|
-| []() (CodeForces) | [Solution]( )|
+
+### Day 2: April 1, 2020
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [A - Exercising Walk](https://codeforces.com/contest/1332/problem/A) (CodeForces) | [Solution](https://codeforces.com/contest/1332/submission/75068302 )|
 | []() (CodeForces) | [Solution]( )|
 | []() (CodeForces) | [Solution]( )|
 | []() (CodeForces) | [Solution]( )|
