@@ -64,3 +64,17 @@
 | [B - Limericks](https://codeforces.com/contest/1331/problem/B) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75180219 )|
 | [C - ...And after happily lived ever they](https://codeforces.com/contest/1331/problem/C) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75182190 )|
 | [D - Again?	](https://codeforces.com/contest/1331/problem/D) (CodeForces) | [Solution](https://codeforces.com/contest/1331/submission/75179999 )|
+
+### Day 4: April 3, 2020
+
+**Participated in Codeforces Round #631 (Div. 2):
+  Solved A( 15 min) .**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [A - Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) (CodeForces) | [Solution]( https://codeforces.com/contest/1330/submission/75364369)|
+| []() (CodeForces) | [Solution]( )|
+| []() (CodeForces) | [Solution]( )|
+| []() (CodeForces) | [Solution]( )|
