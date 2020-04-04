@@ -69,12 +69,12 @@
 
 **Participated in Codeforces Round #631 (Div. 2):
   Solved A( 15 min) .**
-
+**Started Codechef Long Challenge April 2020
 - Problem Solved:
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
 | [A - Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) (CodeForces) | [Solution]( https://codeforces.com/contest/1330/submission/75364369)|
-| []() (CodeForces) | [Solution]( )|
-| []() (CodeForces) | [Solution]( )|
-| []() (CodeForces) | [Solution]( )|
+| [COVID Pandemic and Long Queue](https://www.codechef.com/APRIL20B/problems/COVIDLQ) (Codechef) | [Solution](https://www.codechef.com/viewsolution/31133882 )|
+| [Sell All the Cars](https://www.codechef.com/APRIL20B/problems/CARSELL) (Codechef) | [Solution]( https://www.codechef.com/viewsolution/31123743)|
+
