@@ -78,3 +78,49 @@
 | [COVID Pandemic and Long Queue](https://www.codechef.com/APRIL20B/problems/COVIDLQ) (Codechef) | [Solution](https://www.codechef.com/viewsolution/31133882 )|
 | [Sell All the Cars](https://www.codechef.com/APRIL20B/problems/CARSELL) (Codechef) | [Solution]( https://www.codechef.com/viewsolution/31123743)|
 
+### Day 5: April 4, 2020
+
+**Solved One Second Question in Long Challenge**
+
+**Got the approach for the k complete question but not able to implement it within O(nlogn)**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [C - K-Complete Word ](https://codeforces.com/contest/1332/problem/C) (Codeforces) | [TLE on Solution](https://codeforces.com/contest/1332/submission/75441169)|
+| [COVIDLQ](https://www.codechef.com/APRIL20B/problems/COVIDLQ) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31133882)|
+
+### Day 6: April 5, 2020
+
+**Very Nice question, took me a lot of time to completely solve it.**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [Strange Number](https://www.codechef.com/APRIL20B/problems/STRNO) (CC Long ch) | [Partial Solution](https://www.codechef.com/viewsolution/31283944)|
+
+### Day 7: April 6, 2020
+
+**Solved STRNO completely**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+
+| [Strange Number](https://www.codechef.com/APRIL20B/problems/STRNO) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31283944)|
+
+### Day 8: April 7, 2020
+
+**UNIT GCD is good question though, I got the correct approach initaly dont know why I forgot it.**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+
+| [Unit GCD](https://www.codechef.com/APRIL20B/problems/UNITGCD) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31379996)|
+| []() () | [Solution]()|
+| []() () | [Solution]()|
