@@ -76,11 +76,9 @@
 |-----------|----------------|
 | [A - Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) (CodeForces) | [Solution]( https://codeforces.com/contest/1330/submission/75364369)|
 | [COVID Pandemic and Long Queue](https://www.codechef.com/APRIL20B/problems/COVIDLQ) (Codechef) | [Solution](https://www.codechef.com/viewsolution/31133882 )|
-| [Sell All the Cars](https://www.codechef.com/APRIL20B/problems/CARSELL) (Codechef) | [Solution]( https://www.codechef.com/viewsolution/31123743)|
+| [Sell All the Cars](https://www.codechef.com/APRIL20B/problems/CARSELL) (CC Long ch) | [Solution]( https://www.codechef.com/viewsolution/31123743)|
 
 ### Day 5: April 4, 2020
-
-**Solved One Second Question in Long Challenge**
 
 **Got the approach for the k complete question but not able to implement it within O(nlogn)**
 
