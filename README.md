@@ -109,7 +109,6 @@
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
-
 | [Strange Number](https://www.codechef.com/APRIL20B/problems/STRNO) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31283944)|
 
 ### Day 8: April 7, 2020
@@ -120,7 +119,6 @@
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
-
 | [Unit GCD](https://www.codechef.com/APRIL20B/problems/UNITGCD) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31379996)|
 | []() () | [Solution]()|
 | []() () | [Solution]()|
