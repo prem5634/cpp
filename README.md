@@ -112,5 +112,6 @@
 |**Problem**| **My Solution**|
 |-----------|----------------|
 | [Unit GCD](https://www.codechef.com/APRIL20B/problems/UNITGCD) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31379996)|
-| []() () | [Solution]()|
-| []() () | [Solution]()|
+| [B - Badge	](https://codeforces.com/contest/1020/problem/B) (Codeforces) | [Solution](https://codeforces.com/contest/1020/submission/75772776)|
+| [A - Protect Sheep](https://codeforces.com/contest/948/problem/A) (Codeforces) | [Solution](https://codeforces.com/contest/948/submission/75780581)|
+| []() (Codeforces) | [Solution]()|
