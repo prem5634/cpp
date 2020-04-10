@@ -113,5 +113,31 @@
 |-----------|----------------|
 | [Unit GCD](https://www.codechef.com/APRIL20B/problems/UNITGCD) (CC Long ch) | [Solution](https://www.codechef.com/viewsolution/31379996)|
 | [B - Badge	](https://codeforces.com/contest/1020/problem/B) (Codeforces) | [Solution](https://codeforces.com/contest/1020/submission/75772776)|
+
+
+### Day 8: April 8, 2020
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
 | [A - Protect Sheep](https://codeforces.com/contest/948/problem/A) (Codeforces) | [Solution](https://codeforces.com/contest/948/submission/75780581)|
-| []() (Codeforces) | [Solution]()|
+### Day 8: April 9, 2020
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+
+### Day 8: April 10, 2020
+
+**Participated in Educational Codeforces Round 85 (Rated for Div. 2) and got 5908 rank**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [A - Level Statistics](https://codeforces.com/contest/1334/problem/A) (Codeforces Contest) | [Solution](https://codeforces.com/contest/1334/submission/76110946)|
+| [B - Middle Class](https://codeforces.com/contest/1334/problem/B) (Codeforces Contest) | [Solution](https://codeforces.com/contest/1334/submission/76132388)|
+
+
