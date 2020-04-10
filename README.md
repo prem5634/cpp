@@ -115,24 +115,22 @@
 | [B - Badge	](https://codeforces.com/contest/1020/problem/B) (Codeforces) | [Solution](https://codeforces.com/contest/1020/submission/75772776)|
 
 
-### Day 8: April 8, 2020
+### Day 9: April 8, 2020
 
 - Problem Solved:
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
 | [A - Protect Sheep](https://codeforces.com/contest/948/problem/A) (Codeforces) | [Solution](https://codeforces.com/contest/948/submission/75780581)|
-### Day 8: April 9, 2020
+### Day 10: April 9, 2020
 
-- Problem Solved:
+- Problem Solved: **0**
+  **Kept on Tring to solve Square Subsequence from Long Challange**
 
-|**Problem**| **My Solution**|
-|-----------|----------------|
-
-### Day 8: April 10, 2020
+### Day 11: April 10, 2020
 
 **Participated in Educational Codeforces Round 85 (Rated for Div. 2) and got 5908 rank**
-
+**A and B in Single Go**
 - Problem Solved:
 
 |**Problem**| **My Solution**|
