@@ -139,3 +139,11 @@
 | [B - Middle Class](https://codeforces.com/contest/1334/problem/B) (Codeforces Contest) | [Solution](https://codeforces.com/contest/1334/submission/76132388)|
 
 
+### Day 12: April 11, 2020
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [Leaked Answers](https://www.codechef.com/APRIL20B/problems/ANSLEAK) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31716312)|
+
