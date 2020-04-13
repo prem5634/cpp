@@ -67,9 +67,10 @@
 
 ### Day 4: April 3, 2020
 
-**Participated in Codeforces Round #631 (Div. 2):
-  Solved A( 15 min) .**
-**Started Codechef Long Challenge April 2020
+**Participated in Codeforces Round #631 (Div. 2):Solved A( 15 min) .**
+
+**Started Codechef Long Challenge April 2020**
+
 - Problem Solved:
 
 |**Problem**| **My Solution**|
@@ -125,12 +126,15 @@
 ### Day 10: April 9, 2020
 
 - Problem Solved: **0**
-  **Kept on Tring to solve Square Subsequence from Long Challange**
+
+**Tried to solve Square Subsequence from Long Challange**
 
 ### Day 11: April 10, 2020
 
 **Participated in Educational Codeforces Round 85 (Rated for Div. 2) and got 5908 rank**
+
 **A and B in Single Go**
+
 - Problem Solved:
 
 |**Problem**| **My Solution**|
@@ -151,7 +155,9 @@
 ### Day 13: April 12, 2020
 
 **Participated in Codeforces Round #633 (Div. 2) and solved A **
+
 **Partially solved Square Subsequences**
+
 - Problem Solved:
 
 |**Problem**| **My Solution**|
@@ -164,11 +170,15 @@
 ### Day 14: April 13, 2020
 
 **Participated in Codeforces Round #634 (Div. 3) and solved A(2 min) and B**
+
 **Fully solved Square Subsequences**
+
+**Solved 6 problems in April Long Challenge, and got 4200 rank out of 23000**
+
 - Problem Solved:
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
 | [Squared Subsequences ](https://www.codechef.com/APRIL20B/problems/SQRDSUB/) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31830467) |
-| [A. Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) (Codeforces Con) | [Solution] (https://codeforces.com/contest/1335/submission/76503190) |
-| [B. Construct the String](https://codeforces.com/contest/1335/problem/B) (Codeforces Con) | [Solution] (https://codeforces.com/contest/1335/submission/76532023) |
+| [A. Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76503190) |
+| [B. Construct the String](https://codeforces.com/contest/1335/problem/B) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76532023) |
