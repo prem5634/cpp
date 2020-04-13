@@ -148,7 +148,7 @@
 | [Leaked Answers](https://www.codechef.com/APRIL20B/problems/ANSLEAK) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31716312)|
 
 
-### Day 12: April 11, 2020
+### Day 13: April 12, 2020
 
 **Participated in Codeforces Round #633 (Div. 2) and solved A **
 **Partially solved Square Subsequences**
@@ -156,8 +156,19 @@
 
 |**Problem**| **My Solution**|
 |-----------|----------------|
-| [A - Filling Diamonds](https://codeforces.com/contest/1339/problem/A) (Contest) | [Solution](https://codeforces.com/contest/1339/submission/76360757) |
+| [A - Filling Diamonds](https://codeforces.com/contest/1339/problem/A) (Codforces Con) | [Solution](https://codeforces.com/contest/1339/submission/76360757) |
 | [B - Sorted Adjacent Differences](https://codeforces.com/contest/1339/problem/B) (Codeforces) | [Solution](https://codeforces.com/contest/1339/submission/76410775) |
 | [Squared Subsequences ](https://www.codechef.com/APRIL20B/problems/SQRDSUB/) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31766592) |
-| []() (Codeforces) | [Solution] () |
 
+
+### Day 14: April 13, 2020
+
+**Participated in Codeforces Round #634 (Div. 3) and solved A(2 min) and B**
+**Fully solved Square Subsequences**
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [Squared Subsequences ](https://www.codechef.com/APRIL20B/problems/SQRDSUB/) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31830467) |
+| [A. Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) (Codeforces Con) | [Solution] (https://codeforces.com/contest/1335/submission/76503190) |
+| [B. Construct the String](https://codeforces.com/contest/1335/problem/B) (Codeforces Con) | [Solution] (https://codeforces.com/contest/1335/submission/76532023) |
