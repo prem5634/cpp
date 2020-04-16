@@ -182,3 +182,43 @@
 | [Squared Subsequences ](https://www.codechef.com/APRIL20B/problems/SQRDSUB/) (CC Long Ch) | [Solution](https://www.codechef.com/viewsolution/31830467) |
 | [A. Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76503190) |
 | [B. Construct the String](https://codeforces.com/contest/1335/problem/B) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76532023) |
+
+
+### Day 15: April 14, 2020
+
+**Upsolved C and D in Codeforces Round #634 (Div. 3)**
+Codeforces Round #635 (Div. 2)
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [C - Two Teams Composing](https://codeforces.com/contest/1335/problem/C) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76655003)|
+| [D - Anti-Sudoku](https://codeforces.com/contest/1335/problem/D) (Codeforces Con) | [Solution](https://codeforces.com/contest/1335/submission/76684225)|
+
+### Day 16: April 15, 2020
+
+**Participated in Codeforces Round #635 (Div. 2)**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| [A. Ichihime and Triangle](https://codeforces.com/contest/1337/problem/A) (Codeforces Con) | [Solution](https://codeforces.com/contest/1337/submission/76834680)|
+| [B. Kana and Dragon Quest game](https://codeforces.com/contest/1337/problem/B) (Codeforces Con) | [Solution](https://codeforces.com/contest/1337/submission/76850127)|
+
+### Day 17: April 16, 2020
+
+- Problem Solved:**0**
+
+
+### Day 18: April 17, 2020
+
+**Participated in Codeforces Round #635 (Div. 2)**
+
+- Problem Solved:
+
+|**Problem**| **My Solution**|
+|-----------|----------------|
+| []() (Codeforces Con) | [Solution]()|
+
