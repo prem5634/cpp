@@ -211,10 +211,13 @@ Codeforces Round #635 (Div. 2)
 
 - Problem Solved:**0**
 
-
 ### Day 18: April 17, 2020
 
-**Participated in Codeforces Round #635 (Div. 2)**
+- Problem Solved:**0**
+
+
+### Day 19: April 18, 2020
+
 
 - Problem Solved:
 
