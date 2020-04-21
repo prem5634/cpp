@@ -209,7 +209,7 @@ Codeforces Round #635 (Div. 2)
 
 ### Day 17: April 16, 2020
 
-- Problem Solved:**0**
+
 
 ### Day 18: April 17, 2020
 
@@ -218,6 +218,20 @@ Codeforces Round #635 (Div. 2)
 
 ### Day 19: April 18, 2020
 
+- Problem Solved:**0**
+
+
+### Day 20: April 19, 2020
+
+- Problem Solved:**0**
+
+### Day 21: April 20, 2020
+
+- Problem Solved:**0**
+
+### Day 22: April 21, 2020
+
+- Problem Solved:**0**
 
 - Problem Solved:
 
