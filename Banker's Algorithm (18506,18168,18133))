@@ -1,0 +1,303 @@
+/*Code By S4CSEB 2018-2022-Team 
+	S Prem Kumar(AM.EN.U4CSE18506), 
+	T V Sai Rakesh(AM.EN.U4CSE18168), 
+	M Jai Kiran(AM.EN.U4CSE18133). 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+bool request(int n, int m,int pid,int need[100][100],int alloc[100][100], int work[]){
+	int ans[n],finish[n],order=0;
+
+	// ans array maintains the order in which process are completed
+	//setting status of processes as '0' i.e unfinished
+	for(int i=0;i<n;i++)finish[i]=0;
+
+	for(int l=0;l<n;l++){
+		int flag=0;
+		for(int i=0;i<n;i++){
+			if(finish[i]==0){
+				int rflag=0;
+				for(int j=0;j<m;j++){
+					if(need[i][j]<=work[j]){
+						rflag++;
+					}
+					else 
+						break;
+				}
+				if(rflag==m){
+					flag=1;
+					
+					//extra
+					cout<<"Granting the resources for P"<<i<<endl;
+					//extra
+
+					for(int j=0;j<m;j++){
+						work[j]+=alloc[i][j];
+					}
+					cout<<"P"<<i<<" is completed and resources ";
+					for(int j=0;j<m;j++)cout<<alloc[i][j]<<" ";
+					cout<<"are given back"<<endl;
+					finish[i]=1;
+					ans[order++]=i;					
+					
+					
+					//extra
+					cout<<"New work "<<endl;
+					for(int j=0;j<m;j++)cout<<work[j]<<" ";
+					cout<<endl;
+					//extra
+				}	
+			}
+		}
+		if(flag==0)break;
+	}
+
+	if(order==n){
+		cout<<"P"<<pid<<"'s request is granted"<<endl;
+		cout<<"the safe seq"<<endl<<"< ";
+		for(int i=0;i<n-1;i++)cout<<"P"<<ans[i]<<" -> ";
+		cout<<"P"<<ans[n-1]<<" >"<<endl;
+	return true;
+	}
+	else{
+		cout<<"P"<<pid<<"'s request must wait due to insufficient work resources"<<endl;
+		return false;
+	}	
+}
+
+int main(){
+
+	int n,m,alloc[100][100],maxNeed[100][100],need[100][100];
+	cout<<"No of resources?"<<endl;
+	cin>>m;
+
+	int avail[m],work[m];
+	cout<<"Enter the intial given maximum resources instances"<<endl;
+	for(int j=0;j<m;j++)cin>>avail[j];
+
+	cout<<"Enter the no of Process"<<endl;
+	cin>>n;
+
+	cout<<"enter the Max need of resources for each Process"<<endl;
+	for(int i=0;i<n;i++){
+		for(int j=0;j<m;j++){
+			cin>>maxNeed[i][j];
+		}
+	}
+
+	cout<<"Enter the intial resources given for each process"<<endl;
+	for(int i=0;i<n;i++){
+		for(int j=0;j<m;j++){
+			cin>>alloc[i][j];
+			need[i][j]=maxNeed[i][j]-alloc[i][j];
+		}
+	}
+
+	cout<<"Updating the leftover resources after alloc"<<endl;
+	for(int j=0;j<m;j++){
+		int sum=0;
+		for(int i=0;i<n;i++){
+			sum+=alloc[i][j];
+		}
+		avail[j]-=sum;
+	}
+
+	for(int j=0;j<m;j++){
+		cout<<avail[j]<<" ";
+		work[j]=avail[j];
+	}
+	cout<<endl;
+	
+
+	int ans[n],finish[n],order=0;
+
+	// ans array maintains the order in which process are completed
+	//setting status of processes as '0' i.e unfinished
+	for(int i=0;i<n;i++)finish[i]=0;
+
+	for(int l=0;l<n;l++){
+		int flag=0;
+		for(int i=0;i<n;i++){
+			if(finish[i]==0){
+				int rflag=0;
+				for(int j=0;j<m;j++){
+					if(need[i][j]<=work[j]){
+						rflag++;
+					}
+					else 
+						break;
+				}
+				if(rflag==m){
+					flag=1;
+					
+					//extra
+					cout<<"Granting the resources for P"<<i<<endl;
+					//extra
+
+					for(int j=0;j<m;j++){
+						work[j]+=alloc[i][j];
+					}					
+					cout<<"P"<<i<<" is completed and resources ";
+					for(int j=0;j<m;j++)cout<<alloc[i][j]<<" ";
+					cout<<"are given back"<<endl;
+					finish[i]=1;
+					ans[order++]=i;
+					
+					//extra
+					cout<<"New work "<<endl;
+					for(int j=0;j<m;j++)cout<<work[j]<<" ";
+					cout<<endl;
+					//extra
+				}	
+			}
+		}
+		if(flag==0)break;
+	}
+
+	if(order==n){
+		cout<<"the safe seq"<<endl<<"< ";
+		for(int i=0;i<n-1;i++)cout<<"P"<<ans[i]<<" -> ";
+		cout<<"P"<<ans[n-1]<<" >"<<endl;
+
+		cout<<"avail after safe seq"<<endl;
+		for(int j=0;j<m;j++){
+			cout<<avail[j]<<" ";
+			work[j]=avail[j];
+		}
+		cout<<endl;
+
+		cout<<"Any Request? (Y/N)"<<endl;
+		char anyreq;
+		cin>>anyreq;
+		if(anyreq=='y'|| anyreq=='Y'){
+			int cntreq;
+			cin>>cntreq;
+			// cntreq=1;
+			int pid[cntreq], req[cntreq][m];
+			for(int i=0;i<cntreq;i++){
+				cin>>pid[i];
+				for(int j=0;j<m;j++)
+					cin>>req[i][j];
+			}
+			for(int l=0;l<cntreq;l++){
+				for(int i=0;i<cntreq;i++){
+					if(pid[i]!=-1 && pid[i]!=n){
+						int grantsudo=0;
+						for(int j=0;j<m;j++){
+							if(req[i][j]<=need[pid[i]][j]){
+								grantsudo++;
+							}
+						}
+						if(grantsudo==m){
+							cout<<"P"<<pid[i]<<"'s request is sudo granted;"<<endl;
+							for (int j=0;j<m;j++)
+							{
+								avail[j]-=req[i][j];
+								work[j]=avail[j];
+								need[pid[i]][j]-=req[i][j];
+								alloc[pid[i]][j]+=req[i][j];
+							}
+							
+							bool granted=request(n,m,pid[i],need,alloc,work);
+							if(granted==true){
+								
+								//the request that granted and have a safe seq
+								pid[i]=n;
+								int flag2=0;
+								for(int j=0;j<m;j++){
+									if(need[pid[i]][j]>0){
+										flag2=1;
+										break;
+									}
+								}
+								// checking if the request satisified the need for the process.
+								// if process is completed then other process can use its alloc
+								if(flag2==0){
+									for(int j=0;j<m;j++){
+										avail[j]+=alloc[pid[i]][j];
+									}
+								}
+								cout<<"Next work"<<endl;
+								for(int j=0;j<m;j++)
+									{
+										work[j]=avail[j];
+										cout<<work[j]<<" ";
+									}
+								cout<<endl;
+							}
+							else{
+								for(int j=0;j<m;j++){
+									avail[j]+=req[i][j];
+									work[j]=avail[j];
+									need[pid[i]][j]+=req[i][j];
+									alloc[pid[i]][j]-=req[i][j];
+								}
+							}
+						}
+						else{
+							// the request can never be granted.
+							cout<<"The request for P"<<pid[i]<<" can never be granted"<<endl;
+							pid[i]=-1;
+						}
+					}
+				}	
+			}
+		}
+			
+	}
+	else{
+		cout<<"The system is in Deadlock"<<endl<<"< ";
+		for(int i=0;i<n-1;i++)if(finish[i]==0)cout<<"P"<<i<<", ";
+		if(finish[n-1]==0)cout<<"P"<<n-1<<" >";
+
+		for(int i=0;i<n;i++){
+			finish[i]=0;
+		}
+		for(int j=0;j<m;j++){
+			work[j]=avail[j];
+		}
+
+	}
+
+	return 0;
+}
+
+/*
+3
+
+10 5 7
+
+5
+
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+
+Y
+2
+3 0 1 1
+1 1 0 2
+
+ANSWER:
+the safe seq
+< P1 -> P3 -> P4 -> P0 -> P2 >
+
+p3's request:
+the safe seq
+< P3 -> P4 -> P1 -> P2 -> P0 >
+
+p1's request:
+P1's request is sudo granted;
+P1's request must wait due to insufficient work resources
+P1's request is sudo granted;
+P1's request must wait due to insufficient work resources
+*/
